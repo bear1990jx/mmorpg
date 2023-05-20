@@ -43,7 +43,7 @@ public class RpcBaseFacade {
             node.setIp(crossConfig.getCenterIp());
             node.setPort(crossConfig.getCenterPort());
             node.setType(ServerType.CENTRE.type);
-            clientRouter.registerRpcNode(centerId, node);
+            clientRouter.registerRpcNode(node);
         }
     }
 
